@@ -2,6 +2,10 @@
 
 This repository contains a step-by-step guide on how to set up Ubuntu Subsystem on a Windows machine. The Ubuntu Subsystem allows you to run Linux commands and tools directly from your Windows machine using the Ubuntu terminal.
 
+    ![Windows Features Search](images/architecture-wsl.png)
+
+ - The Ubuntu Subsystem allows you to run Linux commands and tools directly from your Windows machine, making it a valuable tool for developers and IT professionals.
+
 ## Prerequisites
 
 Before you begin, make sure that your Windows machine meets the following requirements:
