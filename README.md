@@ -86,6 +86,19 @@ Follow these steps to set up Ubuntu Subsystem on your Windows machine:
 
     ![Ubuntu Running on Windows](images/ubuntu_running_on_windows.png)
 
+10. Update your installed software by running the `apt-get` command in Ubuntu. For other Linux distributions, refer to their documentation on software updates. Use the command below to update the package lists with sudo privileges:
+
+    ```bash
+    sudo apt-get update
+    ```
+ - note that you must use `sudo` and enter your password to run the command as an administrator.
+
+ 11. Finally, run this command to check dependencies and delete obsolete packages from the system (depending on how long the previous step took, you may have to enter our password again):
+    ```bash
+    sudo apt-get dist-upgrade
+    ```
+
+    ![Ubuntu Running on Windows](images/Ubuntu_files.png.png)
 ## Conclusion
 
 With these simple steps, you can easily set up Ubuntu Subsystem on your Windows machine and enjoy the benefits of Linux commands and tools directly from your Windows terminal. If you encounter any issues during the installation process, feel free to refer to the troubleshooting guide in this repository.
