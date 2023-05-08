@@ -1,8 +1,9 @@
 # Setting Up Ubuntu Subsystem in Windows
 
-This repository contains a step-by-step guide on how to set up Ubuntu Subsystem on a Windows machine. The Ubuntu Subsystem allows you to run Linux commands and tools directly from your Windows machine using the Ubuntu terminal.
+This repository contains a step-by-step guide on how to set up Ubuntu Subsystem on a Windows machine.
+ - The Ubuntu Subsystem allows you to run Linux commands and tools directly from your Windows machine using the Ubuntu terminal.
 
-    ![Windows Features Search](images/architecture-wsl.png)
+    ![Windows Subsystem for Linux (WSL)](images/architecture-wsl.png)
 
  - The Ubuntu Subsystem allows you to run Linux commands and tools directly from your Windows machine, making it a valuable tool for developers and IT professionals.
 
@@ -31,6 +32,31 @@ Follow these steps to set up Ubuntu Subsystem on your Windows machine:
     ![Windows Features Search](images/windows_features_search.png)
 
 2. In the `Windows Features` window, scroll down and locate `Windows Subsystem for Linux` in the list of features. Check the box next to it and click `OK` to start the installation process.
+
+ - Run this command on your terminal
+
+  ```bash
+  wsl --install
+  ```
+
+ - Change the default Linux distribution installed
+
+   ```bash
+  wsl --install -d <Distribution Name>
+  ```
+
+ - Replace <`Distribution Name`> with the name of the distribution you would like to install.
+ - To see a list of available Linux distributions available for download through the online store, enter:
+      ```bash
+      wsl --list --online
+      ```
+
+      OR
+
+      ```bash
+      wsl -l -o
+      ```
+ - To install additional Linux distributions after the initial install, you may also use the command
 
     ![Windows Subsystem for Linux Installation](images/wsl_installation.png)
 
