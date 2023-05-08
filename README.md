@@ -6,9 +6,24 @@ This repository contains a step-by-step guide on how to set up Ubuntu Subsystem 
 
 Before you begin, make sure that your Windows machine meets the following requirements:
 
-- Windows 10 version 16215.0 or later: You can check your Windows version by typing "winver" in the search bar and pressing Enter. If your version is earlier than 16215.0, you will need to update your Windows operating system to the latest version.
-- 64-bit version of Windows: You can check whether your Windows is 64-bit by going to "Settings" > "System" > "About" and looking under the "Device specifications" section.
-- A Windows Insider account (optional, but recommended for the latest updates): If you want to receive the latest updates for the Ubuntu Subsystem, you can sign up for a Windows Insider account.
+- Windows 10 version 16215.0 or later:
+
+  ```
+  - You can check your Windows version by typing `winver` in the search bar and pressing Enter.
+  - If your version is earlier than 16215.0, you will need to update your Windows operating system to the latest version.
+  ```
+
+- 64-bit version of Windows:
+
+  ```
+  - You can check whether your Windows is 64-bit by going to `Settings` > `System` > `About` and looking under the `Device specifications` section.
+  ```
+
+- A Windows Insider account (optional, but recommended for the latest updates):
+
+  ```
+  - If you want to receive the latest updates for the Ubuntu Subsystem, you can sign up for a Windows Insider account.
+  ```
 
 ## Step-by-Step Guide
 
