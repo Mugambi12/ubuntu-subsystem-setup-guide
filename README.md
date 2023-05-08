@@ -7,33 +7,26 @@ This repository contains a step-by-step guide on how to set up Ubuntu Subsystem 
 Before you begin, make sure that your Windows machine meets the following requirements:
 
 - Windows 10 version 16215.0 or later:
+    - You can check your Windows version by typing `winver` in the search bar and pressing Enter.
+    - If your version is earlier than 16215.0, you will need to update your Windows operating system to the latest version.
 
-  ```
-  - You can check your Windows version by typing `winver` in the search bar and pressing Enter.
-  - If your version is earlier than 16215.0, you will need to update your Windows operating system to the latest version.
-  ```
 
 - 64-bit version of Windows:
+    - You can check whether your Windows is 64-bit by going to `Settings` > `System` > `About` and looking under the `Device specifications` section.
 
-  ```
-  - You can check whether your Windows is 64-bit by going to `Settings` > `System` > `About` and looking under the `Device specifications` section.
-  ```
 
 - A Windows Insider account (optional, but recommended for the latest updates):
-
-  ```
-  - If you want to receive the latest updates for the Ubuntu Subsystem, you can sign up for a Windows Insider account.
-  ```
+    - If you want to receive the latest updates for the Ubuntu Subsystem, you can sign up for a Windows Insider account.
 
 ## Step-by-Step Guide
 
 Follow these steps to set up Ubuntu Subsystem on your Windows machine:
 
-1. Open the Windows Start menu and type "Windows Features" in the search bar. Click on "Turn Windows features on or off" in the search results.
+1. Open the Windows Start menu and type `Windows Features` in the search bar. Click on `Turn Windows features on or off` in the search results.
 
     ![Windows Features Search](images/windows_features_search.png)
 
-2. In the "Windows Features" window, scroll down and locate "Windows Subsystem for Linux" in the list of features. Check the box next to it and click "OK" to start the installation process.
+2. In the `Windows Features` window, scroll down and locate `Windows Subsystem for Linux` in the list of features. Check the box next to it and click `OK` to start the installation process.
 
     ![Windows Subsystem for Linux Installation](images/wsl_installation.png)
 
@@ -41,11 +34,11 @@ Follow these steps to set up Ubuntu Subsystem on your Windows machine:
 
 4. After installation, open the Microsoft Store app on your computer.
 
-5. Search for "Ubuntu" in the search bar and select "Ubuntu" from the search results.
+5. Search for `Ubuntu` in the search bar and select `Ubuntu` from the search results.
 
     ![Ubuntu Installation in Microsoft Store](images/ubuntu_installation.png)
 
-6. Click the "Get" button to download and install Ubuntu on your Windows machine.
+6. Click the `Get` button to download and install Ubuntu on your Windows machine.
 
 7. Once the installation is complete, launch the Ubuntu app from the Start menu. Wait for Ubuntu to initialize and set up the necessary components.
 
@@ -53,7 +46,7 @@ Follow these steps to set up Ubuntu Subsystem on your Windows machine:
 
 8. Enter a username and password to set up your Ubuntu account. This will be your account for the Ubuntu subsystem, separate from your Windows account.
 
-9. Ubuntu subsystem is now set up and ready to use on your Windows machine. You can access it by launching the Ubuntu app or by opening a Windows terminal and typing "ubuntu".
+9. Ubuntu subsystem is now set up and ready to use on your Windows machine. You can access it by launching the Ubuntu app or by opening a Windows terminal and typing `ubuntu`.
 
     ![Ubuntu Running on Windows](images/ubuntu_running_on_windows.png)
 
