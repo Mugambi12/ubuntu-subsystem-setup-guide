@@ -48,21 +48,21 @@ Follow these steps to set up Ubuntu Subsystem on your Windows machine:
   - Replace <`Distribution Name`> with the name of the distribution you would like to install.
   - To see a list of available Linux distributions available for download through the online store, enter:
 
-        ```bash
-        wsl --list --online
-        ```
+      ```bash
+      wsl --list --online
+      ```
 
-        OR
+      OR
 
-        ```bash
-        wsl -l -o
-        ```
+      ```bash
+      wsl -l -o
+      ```
 
   - To install additional Linux distributions after the initial install, you may also use the command
 
-        ```bash
-        wsl --install -d <Distribution Name>
-        ```
+      ```bash
+      wsl --install -d <Distribution Name>
+      ```
 
       ![Windows Subsystem for Linux Installation](images/wsl_installation.png)
 
