@@ -94,6 +94,7 @@ Follow these steps to set up Ubuntu Subsystem on your Windows machine:
  - note that you must use `sudo` and enter your password to run the command as an administrator.
 
  11. Finally, run this command to check dependencies and delete obsolete packages from the system (depending on how long the previous step took, you may have to enter our password again):
+
     ```bash
     sudo apt-get dist-upgrade
     ```
